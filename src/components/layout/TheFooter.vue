@@ -1,7 +1,7 @@
-<template>
+<!-- <template>
     <header>
         <nav>
-            <h1> <router-link to="/">Dev Freelancers</router-link> </h1>
+            <h1> <router-link to="/">Zheke Developers</router-link> </h1>
             <ul>
                 <li> <router-link to="/coaches">All Dev Tutors</router-link></li>
                 <li> <router-link to="/requests">Requests</router-link></li>
@@ -71,4 +71,4 @@ header ul {
 li {
   margin: 0 0.5rem;
 }
-</style>
+</style> -->
