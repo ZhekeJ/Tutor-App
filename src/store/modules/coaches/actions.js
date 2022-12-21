@@ -11,7 +11,7 @@ export default {
         }
         const response = await fetch(`https://tutor-app-53ff5-default-rtdb.firebaseio.com/coaches/${userId}.json`, {
             // mode: 'no-cors',
-            method: 'PUT',
+            method: 'POST',
             body: JSON.stringify(coachData)
         })
 
@@ -39,7 +39,7 @@ export default {
         throw error;
     }
    const coaches = [];
-   for  (const key in responseData){
+   for(const key in responseData){
       const coach = {
         id: key,
         firstName: responseData[key].firstName,
